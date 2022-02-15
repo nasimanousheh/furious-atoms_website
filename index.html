@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>FURIOUSATOMS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="_static/images/favicon.svg" />
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="_static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="_static/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="_static/css/animate.css" />
+    <link rel="stylesheet" href="_static/css/tiny-slider.css" />
+    <link rel="stylesheet" href="_static/css/glightbox.min.css" />
+    <link rel="stylesheet" href="_static/css/main.css" />
+
+<style>
+.bg-chimie {
+    content : "";
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg-chimie:before {
+  background-image: url(_static/images/Background1_edited.png);
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0px;
+  right:0px;
+  bottom: 0px;
+  left: 0px;
+}
+</style>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <!-- <a class="navbar-brand" href="index.html">
+                                <img src="_static/images/logo/white-logo.svg" alt="Logo">
+                            </a> -->
+                            <a class="navbar-brand" href="content.html">
+                                <h1 class="title">FuriousAtoms</h1>
+                            </a>
+                            <!--
+<a class="navbar-brand" href="content.html">
+<p class="title">FuriousAtoms</p>
+</a>
+ -->
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="#home" class="page-scroll active"
+                                            aria-label="Toggle navigation">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#features" class="page-scroll"
+                                            aria-label="Toggle navigation">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#overview" aria-label="Toggle navigation">Overview</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#documentation" class="page-scroll"
+                                            aria-label="Toggle navigation">Documentation</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation"></a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                            data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
+                                            aria-expanded="false" aria-label="Toggle navigation">Community</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-4">
+                                            <li class="nav-item"><a href="javascript:void(0)">Mailing List</a>
+                                            </li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Discussion</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Github</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Contact</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <div class="button add-list-button">
+                                <a href="javascript:void(0)" class="btn">Get it now</a>
+                            </div>
+                        </nav>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Hero Area -->
+    <section id="home" class="bg-chimie hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="hero-content">
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">A powerful Software for Molecular Visualization.</h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">From open source to pro services, Furious Atoms helps you to visualize, build, simulates molecular systems.</p>
+                        <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                            <a href="javascript:void(0)" class="btn"> Download Now</a>
+                            <a href="javascript:void(0)" class="btn btn-alt"> GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
+                        <img src="https://static.wixstatic.com/media/48e277_a7f1418e69ec4182baeeadf7ebd9c65d~mv2.png/v1/crop/x_0,y_164,w_640,h_218/fill/w_644,h_190,al_c,lg_1,q_85/many_components%2B0_1.webp" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+
+    <!-- Start Features Area -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Your Experience Gets Better And Better Over Time.
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
+                            Ipsum available, but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <i class="lni lni-cloud-upload"></i>
+                        <h3>Simulation</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                        <i class="lni lni-lock"></i>
+                        <h3>Build your Model</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                        <i class="lni lni-reload"></i>
+                        <h3>3D realistic rendering</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <i class="lni lni-shield"></i>
+                        <h3>Handle Multiple readers</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                        <i class="lni lni-cog"></i>
+                        <h3>Powerful API</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                        <i class="lni lni-layers"></i>
+                        <h3>Free</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Area -->
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+        </script>
+    <section id="overview" class="app-info section">
+        <div class="container">
+        <div class="info-one">
+        <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-text wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+        <div class="main-icon">
+        </div>
+        <h2>Modeling Graphene!</h2>
+        <p> Graphene Sheet  feature  allows  construction  of  graphene  and  graphene-like  sheets  such as hexagonal boron nitride (h-BN), boron phosphide
+        (h-BP), hexagonal aluminum phosphonate (h-AlP) and hexagonal aluminum nitride (h-AlN). The Graphene Sheet is located in the Build menu under
+        Build Nanostructures. Graphene is made of a single atomic layer. On the graphene net, the chiral indices (n, m) specify the lattice structure.
+        n and m are numerically positive integers and define the chiral vector ($\overrightarrow{C_{h}}$) as:
+        \begin{equation}
+        \overrightarrow{C_{h}}=(n, m)=n \overrightarrow{a_{1}}+m \overrightarrow{a_{2}}
+        \end{equation}
+        Where $\overrightarrow{a_{1}}$ and $\overrightarrow{a_{2}}$ are primitive lattice vectors in the hexagonal lattice of graphene separated with
+        an inner angle of 60. a  is the bond length of c-c (the distance between nearest neighbors), the primitive lattice vectors
+        can be chosen to be:
+        \begin{equation}
+        \vec{a}_{1}=\frac{a}{2}(3, \sqrt{3}), \vec{a}_{2}=\frac{a}{2}(3,-\sqrt{3})
+        \end{equation}
+        Based on chiral indices (n and m), graphene can be further categorized into “armchair” when n=m, “zig-zag” when n > 0, m = 0, and all other integer
+        combinations are called “chiral”. The default type of sheet structure is carbon-carbon (C-C) with bond length of 1.421 $\text { Å }$.
+        Figure 1. The graphene lattice geometry. a1 and a2 are the lattice unit vectors. a is the bond length of carbon carbon (c-c).
+        The user can change the bond length of graphene and graphene-like sheets. In the “Hydrogen termination” option,  the edges of the structure are terminated
+        by hydrogen, if "All" is selected.
+        </p>
+        <div class="button">
+        <a href="gr.html" class="btn">Get Started</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-image wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img class="ss1" src="_static/images/gr_1.png" alt="#">
+        </div>
+        </div>
+        </div>
+        <div class="container">
+        <div class="info-one">
+        <div class="row align-items-center">
+
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-text wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+        <div class="main-icon">
+        </div>
+        </div>
+        </div>
+        <div class="container">
+        <div class="info-one">
+        <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-text wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+        <div class="main-icon">
+        </div>
+        <h2>Modeling Carbon Nanotubes!</h2>
+        <p> The Single-Walled Nanotube (SWNT) builder is located under the Build menu. It generates SWNT by first creating a flat  graphene or
+        graphene-like  lattice  with chiral  indices n and m  provided  by  the  user. This hexagonal  lattice  is  then  rolled  onto  a
+        cylinder  to  create  the  SWNT  unit  cell  aligned  in the  z-direction. The diameter (d) of SWNT is defined as:
+        \begin{equation}
+        \begin{aligned}
+        &d=\frac{A}{\pi}=\frac{a_{0}}{\pi} \sqrt{n^{2}+m^{2}+n m} \\
+        &d=|\mathbf{C}| / p i=\operatorname{asqrt}\left(\mathrm{n}^{2}+\mathrm{n} \mathrm{m}+\mathrm{m}^{2}\right)
+        \end{aligned}
+        \end{equation}
+        Where a is the lattice constant. For  graphene, a = 2.49 A. The length of the SWCN unit cell can be written as:
+        \begin{equation}
+        |\mathrm{T}|=\operatorname{sqrt}(3) d / \operatorname{gcd}(2 m+n, m+2 n)
+        \end{equation}
+        The user can build hexagonal boron nitride nanotube (BNNT), hexagonal boron phosphide nanotube (BPNT), hexagonal aluminum phosphonate nanotube (AlPNT)
+        and hexagonal aluminum nitride nanotube (AlNNT) in form of single wall structures.  You can set the n, m indexes, atom types, bond length, repeat units
+        to determine the type of nanotube. All unit distances are in angstrom. In the “Hydrogen termination” option,  you  can  select “One  end”  or  “Both
+        ends” to terminate  one  edge  or  both  edges of the nanotube  with  hydrogen respectively.  The information about the diameter and the length of the
+        nanotube is updated in the widget while the user selects the n, m and repeat unit parameters.
+        You can save the generated file into XYZ ( for example: SWNT.xyz), PDB ( for example: SWNT.pdb), LAMMPS, (for example: SWNT.data) and GROMACS format
+        (for example: SWNT.gro).
+        </p>
+        <div class="button">
+        <a href="swnt.html" class="btn">Get Started</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-image wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img class="ss1" src="_static/images/swnt_1.png" alt="#">
+        </div>
+        </div>
+        </div>
+        <div class="container">
+        <div class="info-one">
+        <div class="row align-items-center">
+
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-text wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+        <div class="main-icon">
+        </div>
+        </div>
+        </div>
+        <div class="container">
+        <div class="info-one">
+        <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-text wow fadeInLeft" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+        <div class="main-icon">
+        </div>
+        <h2>Modeling Multi-Walls Nanotubes!</h2>
+        <p>The Multi-Walled Nanotube (MWNT) builder is located under the Build menu. It generates multiple nanotubes with wall separation of 3.43 A aligned along the z-axis.
+        You can choose the  indices n and m (to define the type of chirality), type of the atoms, bond length,  repeat units (to define the length of MWNT) and the number
+        of walls in MWNT. All unit distances are in angstrom.  The user can see the updated values of diameter inner nanotube and the length of MWNT as the n, m and repeat
+        unit parameters are changing in the widget. Like SWNT, in MWNT the user can build hexagonal boron nitride nanotube (BNNT), hexagonal boron phosphide nanotube (BPNT),
+        hexagonal aluminum phosphonate nanotube (AlPNT) and hexagonal aluminum nitride nanotube (AlNNT) in the form of multiple walls structures. You can save the generated
+        file into XYZ ( for example: MWNT.xyz), PDB ( for example: MWNT.pdb), LAMMPS, (for example: MWNT.data) and GROMACS format
+        (for example: MWNT.gro).
+        </p>
+        <div class="button">
+        <a href="mwnt.html" class="btn">Get Started</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+        <div class="info-image wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img class="ss1" src="_static/images/mwnt_1.png" alt="#">
+        </div>
+        </div>
+        </div>
+        </div>
+        <h2>Modeling Fullerenes!</h2>
+        <p>The Fullerene builder is located under the Build menu.  With Fullerene Builder, the user can create more than 2450 derivatives of fullerene.
+        The user can save the generated file into XYZ ( for example: fullerene.xyz), PDB ( for example: graphene.pdb), LAMMPS, (for example: fullerene.data)
+        and GROMACS format (for example: fullerene.gro).
+        </p>
+        <div class="button">
+        <a href="fullerene.html" class="btn">Get Started</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-12">
+        <div class="info-image wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img class="ss1" src="_static/images/fullerene_1.png" alt="#">
+        </div>
+        </div>
+        </div>
+        </div>
+        <h2>Modeling Electrolytes!</h2>
+        <p>The Electrolyte builder is located under the Build menu. This feature enables the users to create different types of electrolytes for All-Atom (with water molecules)
+            and Coarse-grained (without water molecules) Molecular Dynamics Simulations. These models can be confined inside the nanoscale channels by enabling the  “create dummy
+            wall in z direction” icon. There are three steps to build the electrolyte.
+        </p>
+        <div class="button">
+        <a href="elect.html" class="btn">Get Started</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-12">
+        <div class="info-image wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img class="ss1" src="_static/images/elec_1.png" alt="#">
+        </div>
+        </div>
+        </div>
+        <h2>Modify your model!</h2>
+        <p>FA allows the users to modify the chemical structures by selecting the atoms or bonds and deleting them. The user can also add a simulation box
+        to the model or change the size of the existing simulation box. As an example, we presented a fullerene C720 that is built with FA. The user can
+        easily edit C720 and create a pristine single vacancy (SV) on the cage by removing one carbon atom and simultaneously breaking three C-C bonds
+        in the network. The carbons that are involved with the defected region are shown in red. Moreover, the users can convert the Coarse-Grained model
+        to an All-Atom model by adding the water model into the selected system. After modification, the structure can be saved and exported to LAMMPS and
+        PDB file formats.
+        </p>
+        <div class="button">
+        <a href="fullerene.html" class="btn">Get Started</a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-10 col-md-12 col-12">
+        <div class="info-image wow fadeInRight" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+        <img class="ss1" src="_static/images/modify_1.png" alt="#">
+        </div>
+        </div>
+
+        </section>
+    <!-- Start Achievement Area -->
+    <section class="our-achievement section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
+                    <div class="title">
+                        <h2>Trusted by developers from over 80 planets</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="single-achievement wow fadeInUp" data-wow-delay=".2s">
+                                <h3 class="counter"><span id="secondo1" class="countup" cup-end="100">100</span>%</h3>
+                                <p>satisfaction</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="single-achievement wow fadeInUp" data-wow-delay=".4s">
+                                <h3 class="counter"><span id="secondo2" class="countup" cup-end="120">120</span>K</h3>
+                                <p>Happy Users</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
+                                <h3 class="counter"><span id="secondo3" class="countup" cup-end="125">125</span>k+</h3>
+                                <p>Downloads</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Achievement Area -->
+
+    <!-- Start Pricing Table Area -->
+    <section id="documentation" class="pricing-table section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Documentation</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Documentation Type</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">There are many variations of passages of Lorem
+                            Ipsum available, but the majority have suffered alteration in some form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">User Guide</h4>
+                            <p>All the basics steps to start using Furious Atoms</p>
+                            <div class="price"></div>
+                            <div class="button">
+                                <a href="content.html" class="btn">Go</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- Start Table Content -->
+                        <div class="table-content">
+                            <h4 class="middle-title">What's Included</h4>
+                            <!-- Table List -->
+                            <ul class="table-list">
+                                <li><i class="lni lni-checkmark-circle"></i>How to install Furious Atoms</li>
+                                <li><i class="lni lni-checkmark-circle"></i> How to start the application</li>
+                                <li><i class="lni lni-checkmark-circle"></i>How to load your data</li>
+                                <li><i class="lni lni-checkmark-circle"></i>How to start a simulation</li>
+                            </ul>
+                            <!-- End Table List -->
+                        </div>
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".4s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Developer Guide</h4>
+                            <p>All the basics steps for contributing in Furious Atoms</p>
+                            <div class="price"></div>
+                            <div class="button">
+                                <a href="content.html" class="btn">Go</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- Start Table Content -->
+                        <div class="table-content">
+                            <h4 class="middle-title">What's Included</h4>
+                            <!-- Table List -->
+                            <ul class="table-list">
+                                <li><i class="lni lni-checkmark-circle"></i>Grab the source code</li>
+                                <li><i class="lni lni-checkmark-circle"></i>Setup your Environment</li>
+                                <li><i class="lni lni-checkmark-circle"></i>Your first pull Request</li>
+                                <li><i class="lni lni-checkmark-circle"></i>Adding new features to the project</li>
+                            </ul>
+                            <!-- End Table List -->
+                        </div>
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".8s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Demo and Tutorials</h4>
+                            <p>A full list of step by steps guide.</p>
+                            <div class="price"></div>
+                            <div class="button">
+                                <a href="content.html" class="btn">Go</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- Start Table Content -->
+                        <div class="table-content">
+                            <h4 class="middle-title">What's Included</h4>
+                            <!-- Table List -->
+                            <ul class="table-list">
+                                <li><i class="lni lni-checkmark-circle"></i> Cras justo odio.</li>
+                                <li><i class="lni lni-checkmark-circle"></i> Dapibus ac facilisis in.</li>
+                                <li><i class="lni lni-checkmark-circle"></i> Morbi leo risus.</li>
+                                <li><i class="lni lni-checkmark-circle"></i> Potenti felis, in cras ligula.</li>
+                            </ul>
+                            <!-- End Table List -->
+                        </div>
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".6s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">API</h4>
+                            <p>All functions descriptions</p>
+                            <div class="price"></div>
+                            <div class="button">
+                                <a href="content.html" class="btn">Go</a>
+                            </div>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- Start Table Content -->
+                        <div class="table-content">
+                            <h4 class="middle-title">What's Included</h4>
+                            <!-- Table List -->
+                            <ul class="table-list">
+                                <li><i class="lni lni-checkmark-circle"></i>Modules Description</li>
+                                <li><i class="lni lni-checkmark-circle"></i>Global architecture</li>
+                                <li><i class="lni lni-checkmark-circle"></i>Functions descriptions</li>
+                            </ul>
+                            <!-- End Table List -->
+                        </div>
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ End Pricing Table Area -->
+
+    <!-- Start Call To Action Area -->
+    <section class="section call-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                    <div class="cta-content">
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Install FURIOUS ATOMS And Start Using!
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                        <div class="button wow fadeInUp" data-wow-delay=".6s">
+                            <a href="javascript:void(0)" class="btn">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call To Action Area -->
+    <section class="faq section">
+        <div class="container">
+        <div class="row">
+        <div class="col-12">
+        <div class="section-title">
+        <h3 class="wow zoomIn" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">Faq</h3>
+        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Frequently Asked Questions</h2>
+        <p class="wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">There are many variations of passages of Lorem
+        Ipsum available, but the majority have suffered alteration in some form.</p>
+        </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12">
+        <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        <span class="title"><span class="serial">01</span>How can I cite FURIOUS ATOMS</span><i class="lni lni-plus"></i>
+        </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+        <div class="accordion-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
+        amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu
+        erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida
+        augue. Duis ac dictum tellus</p>
+        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor
+        brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt alqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson
+        cred nesciunt sapiente ea proident.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <span class="title"><span class="serial">02</span> Material types can you work
+        with?</span><i class="lni lni-plus"></i>
+        </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor
+        brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt alqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson
+        cred nesciunt sapiente ea proident.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit
+        amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu
+        erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque ut gravida
+        augue. Duis ac dictum tellus</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <span class="title"><span class="serial">03</span>Can I meet the developers team during conferences</span><i class="lni lni-plus"></i>
+        </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita,
+        repellendus est nemo cum quibusdam optio, voluptate hic a tempora facere, nihil
+        non itaque alias similique quas quam odit consequatur.</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <span class="title"><span class="serial">04</span> What is the difference with others softwares</span><i class="lni lni-plus"></i>
+        </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor
+        brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt alqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch et.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident iure ab nisi,
+        magnam vitae. Laboriosam laborum suscipit recusandae officia laudantium,
+        consectetur adipisci voluptates doloremque quisquam. Id rerum iusto
+        reprehenderit assumenda!</p>
+        </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <span class="title"><span class="serial">05</span>Can I share resources between features?</span><i class="lni lni-plus"></i>
+        </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+         richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor
+        brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt alqua put a bird on it squid single-origin coffee nulla assumenda
+        shoreditch et. </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-about">
+                                <div class="cta-content">
+                                    <h1>FURIOUS ATOMS</h1>
+                                </div>
+                            <!-- <div class="logo">
+                                <a href="index.html">
+                                    <img src="_static/images/logo/white-logo.svg" alt="#">
+                                </a>
+                            </div> -->
+                            <p>Making the world a better place through constructing elegant hierarchies.</p>
+                            <ul class="social">
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-youtube"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-pinterest"></i></a></li>
+                            </ul>
+                            <p class="copyright-text">Designed and Developed by <a href="https://uideck.com/"
+                                    rel="nofollow" target="_blank">UIdeck</a>
+                            </p>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
+    </footer>
+    <!--/ End Footer Area -->
+
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="_static/js/bootstrap.min.js"></script>
+    <script src="_static/js/wow.min.js"></script>
+    <script src="_static/js/tiny-slider.js"></script>
+    <script src="_static/js/glightbox.min.js"></script>
+    <script src="_static/js/count-up.min.js"></script>
+    <script src="_static/js/main.js"></script>
+    <script type="text/javascript">
+
+        //====== counter up
+        var cu = new counterUp({
+            start: 0,
+            duration: 2000,
+            intvalues: true,
+            interval: 100,
+            append: " ",
+        });
+        cu.start();
+    </script>
+</body>
+
+</html>
